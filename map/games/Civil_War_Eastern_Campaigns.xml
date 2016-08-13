@@ -5788,22 +5788,22 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -5865,12 +5865,12 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -5880,7 +5880,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Allegheny Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -5972,7 +5972,7 @@
     <attachment name="territoryAttachment" attachTo="South Mountain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Annapolis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>

@@ -8205,7 +8205,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Cumberland Mountains North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -8359,7 +8359,7 @@
     <attachment name="territoryAttachment" attachTo="Jemez Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Pikeville" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -8449,7 +8449,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sierra Nevada South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -8537,7 +8537,7 @@
       <option name="captureUnitOnEnteringBy" value="Union"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Long's Peak" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -8601,7 +8601,7 @@
       <option name="captureUnitOnEnteringBy" value="Union"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Appalachian Mountains 4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -8611,17 +8611,17 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Appalachian Mountains 3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Appalachian Mountains 2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Appalachian Mountains 1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -8632,7 +8632,7 @@
       <option name="captureUnitOnEnteringBy" value="Confederate"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="White Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -8865,7 +8865,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Humboldt Range" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -8976,7 +8976,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Manzano Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -8986,7 +8986,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sierra Nevada North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -9200,7 +9200,7 @@
       <option name="captureUnitOnEnteringBy" value="Union"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sangre de Cristo Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -9285,7 +9285,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Mexico" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Murfreesboro" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -9484,29 +9484,29 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Baja California" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Cross Keys" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -9519,7 +9519,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Coast Range" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -9617,7 +9617,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Cumberland Mountains South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -9727,12 +9727,12 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue Ridge Mountains 6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -9808,7 +9808,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Allegheny Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -9874,7 +9874,7 @@
       <option name="captureUnitOnEnteringBy" value="Confederate"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="San Andres Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -9937,7 +9937,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chuska Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -10081,7 +10081,7 @@
       <option name="captureUnitOnEnteringBy" value="Union"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Wahsatch Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -10146,12 +10146,12 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tunecha Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Pinal Llano Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -10240,7 +10240,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sierra de San Juan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -10262,7 +10262,7 @@
     <attachment name="territoryAttachment" attachTo="Sierra de San Mateo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sutton" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -10338,7 +10338,7 @@
     <attachment name="territoryAttachment" attachTo="South Mountain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="unitProduction" value="15"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Honey Springs" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
