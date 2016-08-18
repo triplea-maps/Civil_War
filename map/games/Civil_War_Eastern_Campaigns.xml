@@ -4298,7 +4298,7 @@
     <attachment name="unitAttachment" attachTo="general" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="3"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
       <option name="isConstruction" value="true"/>
       <option name="constructionType" value="general_promotion"/>
       <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
@@ -4379,7 +4379,7 @@
       <option name="consumesUnits" value="1:gunboat"/>
       <option name="movement" value="2"/>
       <option name="canBombard" value="true"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
       <option name="isSea" value="true"/>
       <option name="requiresUnits" value="shipyard"/>
       <option name="requiresUnits" value="shipyard_u"/>
@@ -5599,7 +5599,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Baltimore" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="production" value="3"/>
       <option name="unitProduction" value="15"/>
     </attachment>
@@ -5759,7 +5759,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Washington" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="capital" value="Union"/>
       <option name="production" value="3"/>
       <option name="resources" value="3:Manpower"/>
@@ -5776,13 +5776,13 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Gettysburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="production" value="1"/>
       <option name="resources" value="1:Manpower"/>
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Petersburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="production" value="2"/>
       <option name="resources" value="2:Manpower"/>
       <option name="unitProduction" value="15"/>
@@ -5958,7 +5958,7 @@
       <option name="unitProduction" value="15"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Richmond" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="capital" value="Confederate"/>
       <option name="production" value="3"/>
       <option name="resources" value="3:Manpower"/>
@@ -6524,322 +6524,322 @@
     </attachment>
     <!-- Turn Conditions-->
     <attachment name="conditionAttachmentTurn2" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="2"/>
+      <option name="rounds" value="2"/>
     </attachment>
     <attachment name="conditionAttachmentTurn3" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="3"/>
+      <option name="rounds" value="3"/>
     </attachment>
     <attachment name="conditionAttachmentTurn4" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="4"/>
+      <option name="rounds" value="4"/>
     </attachment>
     <attachment name="conditionAttachmentTurn5" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="5"/>
+      <option name="rounds" value="5"/>
     </attachment>
     <attachment name="conditionAttachmentTurn6" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="6"/>
+      <option name="rounds" value="6"/>
     </attachment>
     <attachment name="conditionAttachmentTurn7" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="7"/>
+      <option name="rounds" value="7"/>
     </attachment>
     <attachment name="conditionAttachmentTurn8" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="8"/>
+      <option name="rounds" value="8"/>
     </attachment>
     <attachment name="conditionAttachmentTurn9" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="9"/>
+      <option name="rounds" value="9"/>
     </attachment>
     <attachment name="conditionAttachmentTurn10" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="10"/>
+      <option name="rounds" value="10"/>
     </attachment>
     <attachment name="conditionAttachmentTurn11" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="11"/>
+      <option name="rounds" value="11"/>
     </attachment>
     <attachment name="conditionAttachmentTurn12" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="12"/>
+      <option name="rounds" value="12"/>
     </attachment>
     <attachment name="conditionAttachmentTurn13" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="13"/>
+      <option name="rounds" value="13"/>
     </attachment>
     <attachment name="conditionAttachmentTurn14" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="14"/>
+      <option name="rounds" value="14"/>
     </attachment>
     <attachment name="conditionAttachmentTurn15" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="15"/>
+      <option name="rounds" value="15"/>
     </attachment>
     <attachment name="conditionAttachmentTurn16" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="16"/>
+      <option name="rounds" value="16"/>
     </attachment>
     <attachment name="conditionAttachmentTurn17" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="17"/>
+      <option name="rounds" value="17"/>
     </attachment>
     <attachment name="conditionAttachmentTurn18" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="18"/>
+      <option name="rounds" value="18"/>
     </attachment>
     <attachment name="conditionAttachmentTurn19" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="19"/>
+      <option name="rounds" value="19"/>
     </attachment>
     <attachment name="conditionAttachmentTurn20" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="20"/>
+      <option name="rounds" value="20"/>
     </attachment>
     <attachment name="conditionAttachmentTurn21" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="21"/>
+      <option name="rounds" value="21"/>
     </attachment>
     <attachment name="conditionAttachmentTurn22" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="22"/>
+      <option name="rounds" value="22"/>
     </attachment>
     <attachment name="conditionAttachmentTurn23" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="23"/>
+      <option name="rounds" value="23"/>
     </attachment>
     <attachment name="conditionAttachmentTurn24" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="24"/>
+      <option name="rounds" value="24"/>
     </attachment>
     <attachment name="conditionAttachmentTurn25" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="25"/>
+      <option name="rounds" value="25"/>
     </attachment>
     <attachment name="conditionAttachmentTurn26" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="26"/>
+      <option name="rounds" value="26"/>
     </attachment>
     <attachment name="conditionAttachmentTurn27" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="27"/>
+      <option name="rounds" value="27"/>
     </attachment>
     <attachment name="conditionAttachmentTurn28" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="28"/>
+      <option name="rounds" value="28"/>
     </attachment>
     <attachment name="conditionAttachmentTurn29" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="29"/>
+      <option name="rounds" value="29"/>
     </attachment>
     <attachment name="conditionAttachmentTurn30" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="30"/>
+      <option name="rounds" value="30"/>
     </attachment>
     <attachment name="conditionAttachmentTurn31" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="31"/>
+      <option name="rounds" value="31"/>
     </attachment>
     <attachment name="conditionAttachmentTurn32" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="32"/>
+      <option name="rounds" value="32"/>
     </attachment>
     <attachment name="conditionAttachmentTurn33" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="33"/>
+      <option name="rounds" value="33"/>
     </attachment>
     <attachment name="conditionAttachmentTurn34" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="34"/>
+      <option name="rounds" value="34"/>
     </attachment>
     <attachment name="conditionAttachmentTurn35" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="35"/>
+      <option name="rounds" value="35"/>
     </attachment>
     <attachment name="conditionAttachmentTurn36" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="36"/>
+      <option name="rounds" value="36"/>
     </attachment>
     <attachment name="conditionAttachmentTurn37" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="37"/>
+      <option name="rounds" value="37"/>
     </attachment>
     <attachment name="conditionAttachmentTurn38" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="38"/>
+      <option name="rounds" value="38"/>
     </attachment>
     <attachment name="conditionAttachmentTurn39" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="39"/>
+      <option name="rounds" value="39"/>
     </attachment>
     <attachment name="conditionAttachmentTurn40" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="40"/>
+      <option name="rounds" value="40"/>
     </attachment>
     <attachment name="conditionAttachmentTurn41" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="41"/>
+      <option name="rounds" value="41"/>
     </attachment>
     <attachment name="conditionAttachmentTurn42" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="42"/>
+      <option name="rounds" value="42"/>
     </attachment>
     <attachment name="conditionAttachmentTurn43" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="43"/>
+      <option name="rounds" value="43"/>
     </attachment>
     <attachment name="conditionAttachmentTurn44" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="44"/>
+      <option name="rounds" value="44"/>
     </attachment>
     <attachment name="conditionAttachmentTurn45" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="45"/>
+      <option name="rounds" value="45"/>
     </attachment>
     <attachment name="conditionAttachmentTurn46" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="46"/>
+      <option name="rounds" value="46"/>
     </attachment>
     <attachment name="conditionAttachmentTurn47" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="47"/>
+      <option name="rounds" value="47"/>
     </attachment>
     <attachment name="conditionAttachmentTurn48" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="48"/>
+      <option name="rounds" value="48"/>
     </attachment>
     <attachment name="conditionAttachmentTurn49" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="49"/>
+      <option name="rounds" value="49"/>
     </attachment>
     <attachment name="conditionAttachmentTurn50" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="50"/>
+      <option name="rounds" value="50"/>
     </attachment>
     <attachment name="conditionAttachmentTurn51" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="51"/>
+      <option name="rounds" value="51"/>
     </attachment>
     <attachment name="conditionAttachmentTurn52" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="52"/>
+      <option name="rounds" value="52"/>
     </attachment>
     <attachment name="conditionAttachmentTurn53" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="53"/>
+      <option name="rounds" value="53"/>
     </attachment>
     <attachment name="conditionAttachmentTurn54" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="54"/>
+      <option name="rounds" value="54"/>
     </attachment>
     <attachment name="conditionAttachmentTurn2" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="2"/>
+      <option name="rounds" value="2"/>
     </attachment>
     <attachment name="conditionAttachmentTurn3" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="3"/>
+      <option name="rounds" value="3"/>
     </attachment>
     <attachment name="conditionAttachmentTurn4" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="4"/>
+      <option name="rounds" value="4"/>
     </attachment>
     <attachment name="conditionAttachmentTurn5" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="5"/>
+      <option name="rounds" value="5"/>
     </attachment>
     <attachment name="conditionAttachmentTurn6" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="6"/>
+      <option name="rounds" value="6"/>
     </attachment>
     <attachment name="conditionAttachmentTurn7" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="7"/>
+      <option name="rounds" value="7"/>
     </attachment>
     <attachment name="conditionAttachmentTurn8" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="8"/>
+      <option name="rounds" value="8"/>
     </attachment>
     <attachment name="conditionAttachmentTurn9" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="9"/>
+      <option name="rounds" value="9"/>
     </attachment>
     <attachment name="conditionAttachmentTurn10" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="10"/>
+      <option name="rounds" value="10"/>
     </attachment>
     <attachment name="conditionAttachmentTurn11" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="11"/>
+      <option name="rounds" value="11"/>
     </attachment>
     <attachment name="conditionAttachmentTurn12" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="12"/>
+      <option name="rounds" value="12"/>
     </attachment>
     <attachment name="conditionAttachmentTurn13" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="13"/>
+      <option name="rounds" value="13"/>
     </attachment>
     <attachment name="conditionAttachmentTurn14" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="14"/>
+      <option name="rounds" value="14"/>
     </attachment>
     <attachment name="conditionAttachmentTurn15" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="15"/>
+      <option name="rounds" value="15"/>
     </attachment>
     <attachment name="conditionAttachmentTurn16" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="16"/>
+      <option name="rounds" value="16"/>
     </attachment>
     <attachment name="conditionAttachmentTurn17" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="17"/>
+      <option name="rounds" value="17"/>
     </attachment>
     <attachment name="conditionAttachmentTurn18" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="18"/>
+      <option name="rounds" value="18"/>
     </attachment>
     <attachment name="conditionAttachmentTurn19" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="19"/>
+      <option name="rounds" value="19"/>
     </attachment>
     <attachment name="conditionAttachmentTurn20" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="20"/>
+      <option name="rounds" value="20"/>
     </attachment>
     <attachment name="conditionAttachmentTurn21" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="21"/>
+      <option name="rounds" value="21"/>
     </attachment>
     <attachment name="conditionAttachmentTurn22" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="22"/>
+      <option name="rounds" value="22"/>
     </attachment>
     <attachment name="conditionAttachmentTurn23" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="23"/>
+      <option name="rounds" value="23"/>
     </attachment>
     <attachment name="conditionAttachmentTurn24" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="24"/>
+      <option name="rounds" value="24"/>
     </attachment>
     <attachment name="conditionAttachmentTurn25" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="25"/>
+      <option name="rounds" value="25"/>
     </attachment>
     <attachment name="conditionAttachmentTurn26" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="26"/>
+      <option name="rounds" value="26"/>
     </attachment>
     <attachment name="conditionAttachmentTurn27" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="27"/>
+      <option name="rounds" value="27"/>
     </attachment>
     <attachment name="conditionAttachmentTurn28" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="28"/>
+      <option name="rounds" value="28"/>
     </attachment>
     <attachment name="conditionAttachmentTurn29" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="29"/>
+      <option name="rounds" value="29"/>
     </attachment>
     <attachment name="conditionAttachmentTurn30" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="30"/>
+      <option name="rounds" value="30"/>
     </attachment>
     <attachment name="conditionAttachmentTurn31" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="31"/>
+      <option name="rounds" value="31"/>
     </attachment>
     <attachment name="conditionAttachmentTurn32" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="32"/>
+      <option name="rounds" value="32"/>
     </attachment>
     <attachment name="conditionAttachmentTurn33" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="33"/>
+      <option name="rounds" value="33"/>
     </attachment>
     <attachment name="conditionAttachmentTurn34" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="34"/>
+      <option name="rounds" value="34"/>
     </attachment>
     <attachment name="conditionAttachmentTurn35" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="35"/>
+      <option name="rounds" value="35"/>
     </attachment>
     <attachment name="conditionAttachmentTurn36" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="36"/>
+      <option name="rounds" value="36"/>
     </attachment>
     <attachment name="conditionAttachmentTurn37" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="37"/>
+      <option name="rounds" value="37"/>
     </attachment>
     <attachment name="conditionAttachmentTurn38" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="38"/>
+      <option name="rounds" value="38"/>
     </attachment>
     <attachment name="conditionAttachmentTurn39" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="39"/>
+      <option name="rounds" value="39"/>
     </attachment>
     <attachment name="conditionAttachmentTurn40" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="40"/>
+      <option name="rounds" value="40"/>
     </attachment>
     <attachment name="conditionAttachmentTurn41" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="41"/>
+      <option name="rounds" value="41"/>
     </attachment>
     <attachment name="conditionAttachmentTurn42" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="42"/>
+      <option name="rounds" value="42"/>
     </attachment>
     <attachment name="conditionAttachmentTurn43" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="43"/>
+      <option name="rounds" value="43"/>
     </attachment>
     <attachment name="conditionAttachmentTurn44" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="44"/>
+      <option name="rounds" value="44"/>
     </attachment>
     <attachment name="conditionAttachmentTurn45" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="45"/>
+      <option name="rounds" value="45"/>
     </attachment>
     <attachment name="conditionAttachmentTurn46" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="46"/>
+      <option name="rounds" value="46"/>
     </attachment>
     <attachment name="conditionAttachmentTurn47" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="47"/>
+      <option name="rounds" value="47"/>
     </attachment>
     <attachment name="conditionAttachmentTurn48" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="48"/>
+      <option name="rounds" value="48"/>
     </attachment>
     <attachment name="conditionAttachmentTurn49" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="49"/>
+      <option name="rounds" value="49"/>
     </attachment>
     <attachment name="conditionAttachmentTurn50" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="50"/>
+      <option name="rounds" value="50"/>
     </attachment>
     <attachment name="conditionAttachmentTurn51" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="51"/>
+      <option name="rounds" value="51"/>
     </attachment>
     <attachment name="conditionAttachmentTurn52" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="52"/>
+      <option name="rounds" value="52"/>
     </attachment>
     <attachment name="conditionAttachmentTurn53" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="53"/>
+      <option name="rounds" value="53"/>
     </attachment>
     <attachment name="conditionAttachmentTurn54" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="54"/>
+      <option name="rounds" value="54"/>
     </attachment>
     <!-- Blockade Conditions-->
     <attachment name="conditionAttachmentBlockadePoint1" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
@@ -10857,14 +10857,14 @@
     <property name="Kamikaze Airplanes" value="false" editable="false">
       <boolean/>
     </property>
-    <property name="Units repair at end of round" value="true" editable="false">
+    <property name="Units Repair Hits End Turn" value="true" editable="false">
       <boolean/>
     </property>
     <!-- in order to repair, a unit must in the presence of a unit with "repairsUnits" unit attachment -->
     <property name="Two HitPoint Units Require Repair Facilities" value="true" editable="false">
       <boolean/>
     </property>
-    <property name="Units repair at beginning of round" value="true" editable="false">
+    <property name="Units Repair Hits Start Turn" value="true" editable="false">
       <boolean/>
     </property>
     <!-- Display Options -->
