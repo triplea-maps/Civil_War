@@ -4335,8 +4335,8 @@
       <option name="maxRoundsAA" value="-1"/>
       <option name="attackAA" value="1"/>
       <option name="attackAAmaxDieSides" value="12"/>
-      <option name="OffensiveAttackAA" value="1"/>
-      <option name="OffensiveAttackAAmaxDieSides" value="12"/>
+      <option name="offensiveAttackAA" value="1"/>
+      <option name="offensiveAttackAAmaxDieSides" value="12"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="typeAA" value="artillery_cannonade"/>
       <option name="damageableAA" value="true"/>
@@ -4471,8 +4471,8 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="attackAA" value="3"/>
       <option name="attackAAmaxDieSides" value="12"/>
-      <option name="OffensiveAttackAA" value="3"/>
-      <option name="OffensiveAttackAAmaxDieSides" value="12"/>
+      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAAmaxDieSides" value="12"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="typeAA" value="torpedoes"/>
       <option name="damageableAA" value="true"/>
