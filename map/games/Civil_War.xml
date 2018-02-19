@@ -14361,15 +14361,15 @@
     </attachment>
     <attachment name="conditionAttachment_Confederate_Has_Loan1" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt1"/>
-      <option name="UnitPresence" value="ConfederateDebt" count="1"/>
+      <option name="unitPresence" value="ConfederateDebt" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Confederate_Loan1_Has1Payment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt1"/>
-      <option name="UnitPresence" value="ConfederatePayment" count="1"/>
+      <option name="unitPresence" value="ConfederatePayment" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Confederate_Loan1_Has1BackPayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt1"/>
-      <option name="UnitPresence" value="ConfederatePayment" count="2"/>
+      <option name="unitPresence" value="ConfederatePayment" count="2"/>
     </attachment>
     <attachment name="conditionAttachment_Confederate_Can_Loan2" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="gameProperty" value="Players Can Take Loans"/>
@@ -14377,15 +14377,15 @@
     </attachment>
     <attachment name="conditionAttachment_Confederate_Has_Loan2" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt2"/>
-      <option name="UnitPresence" value="ConfederateDebt" count="1"/>
+      <option name="unitPresence" value="ConfederateDebt" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Confederate_Loan2_Has1Payment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt2"/>
-      <option name="UnitPresence" value="ConfederatePayment" count="1"/>
+      <option name="unitPresence" value="ConfederatePayment" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Confederate_Loan2_Has1BackPayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt2"/>
-      <option name="UnitPresence" value="ConfederatePayment" count="2"/>
+      <option name="unitPresence" value="ConfederatePayment" count="2"/>
     </attachment>
     <attachment name="conditionAttachment_Confederate_Can_Loan3" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="gameProperty" value="Players Can Take Loans"/>
@@ -14393,15 +14393,15 @@
     </attachment>
     <attachment name="conditionAttachment_Confederate_Has_Loan3" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt3"/>
-      <option name="UnitPresence" value="ConfederateDebt" count="1"/>
+      <option name="unitPresence" value="ConfederateDebt" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Confederate_Loan3_Has1Payment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt3"/>
-      <option name="UnitPresence" value="ConfederatePayment" count="1"/>
+      <option name="unitPresence" value="ConfederatePayment" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Confederate_Loan3_Has1BackPayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt3"/>
-      <option name="UnitPresence" value="ConfederatePayment" count="2"/>
+      <option name="unitPresence" value="ConfederatePayment" count="2"/>
     </attachment>
     <attachment name="conditionAttachment_HasPayment_Anywhere" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="conditions" value="conditionAttachment_Confederate_Loan1_Has1Payment:conditionAttachment_Confederate_Loan2_Has1Payment:conditionAttachment_Confederate_Loan3_Has1Payment"/>
@@ -15121,15 +15121,15 @@
     </attachment>
     <attachment name="conditionAttachment_Union_Has_Loan1" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt1"/>
-      <option name="UnitPresence" value="UnionDebt" count="1"/>
+      <option name="unitPresence" value="UnionDebt" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Union_Loan1_Has1Payment" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt1"/>
-      <option name="UnitPresence" value="UnionPayment" count="1"/>
+      <option name="unitPresence" value="UnionPayment" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Union_Loan1_Has1BackPayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt1"/>
-      <option name="UnitPresence" value="UnionPayment" count="2"/>
+      <option name="unitPresence" value="UnionPayment" count="2"/>
     </attachment>
     <attachment name="conditionAttachment_Union_Can_Loan2" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="gameProperty" value="Players Can Take Loans"/>
@@ -15137,15 +15137,15 @@
     </attachment>
     <attachment name="conditionAttachment_Union_Has_Loan2" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt2"/>
-      <option name="UnitPresence" value="UnionDebt" count="1"/>
+      <option name="unitPresence" value="UnionDebt" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Union_Loan2_Has1Payment" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt2"/>
-      <option name="UnitPresence" value="UnionPayment" count="1"/>
+      <option name="unitPresence" value="UnionPayment" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Union_Loan2_Has1BackPayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt2"/>
-      <option name="UnitPresence" value="UnionPayment" count="2"/>
+      <option name="unitPresence" value="UnionPayment" count="2"/>
     </attachment>
     <attachment name="conditionAttachment_Union_Can_Loan3" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="gameProperty" value="Players Can Take Loans"/>
@@ -15153,15 +15153,15 @@
     </attachment>
     <attachment name="conditionAttachment_Union_Has_Loan3" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt3"/>
-      <option name="UnitPresence" value="UnionDebt" count="1"/>
+      <option name="unitPresence" value="UnionDebt" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Union_Loan3_Has1Payment" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt3"/>
-      <option name="UnitPresence" value="UnionPayment" count="1"/>
+      <option name="unitPresence" value="UnionPayment" count="1"/>
     </attachment>
     <attachment name="conditionAttachment_Union_Loan3_Has1BackPayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Debt3"/>
-      <option name="UnitPresence" value="UnionPayment" count="2"/>
+      <option name="unitPresence" value="UnionPayment" count="2"/>
     </attachment>
     <attachment name="conditionAttachment_HasPayment_Anywhere" attachTo="Union" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="conditions" value="conditionAttachment_Union_Loan1_Has1Payment:conditionAttachment_Union_Loan2_Has1Payment:conditionAttachment_Union_Loan3_Has1Payment"/>
