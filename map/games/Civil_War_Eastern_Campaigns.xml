@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Civil War: Eastern Campaigns" version="3.0.1"/>
+  <info name="Civil War: Eastern Campaigns" version="3.0.2"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="12"/>
@@ -484,11 +484,11 @@
   <playerList>
     <!-- Player Turn Order -->
     <player name="Confederate" optional="false"/>
-    <player name="Pro-Confederate" optional="true"/>
-    <player name="AI_Confederate_Commanders" optional="true"/>
+    <player name="Pro-Confederate" optional="true" defaultType="DoesNothing" isHidden="true"/>
+    <player name="AI_Confederate_Commanders" optional="true" defaultType="AI" isHidden="true"/>
     <player name="Union" optional="false"/>
-    <player name="Pro-Union" optional="true"/>
-    <player name="AI_Union_Commanders" optional="true"/>
+    <player name="Pro-Union" optional="true" defaultType="DoesNothing" isHidden="true"/>
+    <player name="AI_Union_Commanders" optional="true" defaultType="AI" isHidden="true"/>
     <alliance player="Union" alliance="United States of America"/>
     <alliance player="Pro-Union" alliance="Pro-Union Areas"/>
     <alliance player="AI_Union_Commanders" alliance="United States of America"/>
