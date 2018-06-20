@@ -9050,10 +9050,8 @@
     <attachment name="triggerAttachment_Confederate_Default_Units" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachment_Confederate_HasBackPayment_Anywhere"/>
       <option name="when" value="after:ConfederateUserActions"/>
-      <option name="removeUnits" value="all:ConfederatePayment:ConfederateDebt:infantry:elite_infantry:cavalry:elite_cavalry:artillery:general:gunboat:ironclad:frigate:battleship:submarine:engineers" count="10000"/>
       <option name="players" value="Confederate"/>
-      <option name="resource" value="PUs"/>
-      <option name="resourceCount" value="-10000"/>
+      <option name="removeUnits" value="all:ConfederatePayment:ConfederateDebt:infantry:elite_infantry:cavalry:elite_cavalry:artillery:general:gunboat:ironclad:frigate:battleship:submarine:engineers" count="10000"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Default_PUs" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachment_Confederate_HasBackPayment_Anywhere"/>
@@ -9870,10 +9868,8 @@
     <attachment name="triggerAttachment_Union_Default_Units" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachment_Union_HasBackPayment_Anywhere"/>
       <option name="when" value="after:UnionUserActions"/>
-      <option name="removeUnits" value="all:UnionPayment:UnionDebt:infantry:elite_infantry:cavalry:elite_cavalry:artillery:general:gunboat:ironclad:frigate:battleship:submarine:engineers" count="10000"/>
       <option name="players" value="Union"/>
-      <option name="resource" value="PUs"/>
-      <option name="resourceCount" value="-10000"/>
+      <option name="removeUnits" value="all:UnionPayment:UnionDebt:infantry:elite_infantry:cavalry:elite_cavalry:artillery:general:gunboat:ironclad:frigate:battleship:submarine:engineers" count="10000"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Default_PUs" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachment_Union_HasBackPayment_Anywhere"/>
