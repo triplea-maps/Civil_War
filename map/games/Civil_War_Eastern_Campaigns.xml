@@ -11980,7 +11980,7 @@
                         </ul>
                         <br>When a player default on their loans:<ul>
                         <li>All resource stockpiles are set to 0</li>
-                        <li>All non-infrastructure units except militia are disbanded and removed from the map.</li>
+                        <li>All combat and command/logistic units except militia and torpedo are removed from the map.</li>
                         </ul>
          				<br>
          				<br>
@@ -12174,11 +12174,12 @@ The Union blockade had a profound effect on the Southern economy, choking off co
          <ul style="text-align: left; display: inline-block">
             <li>Refactored War Financing, to correct several unintended behaviours (the Union never had consequences for not paying instalments or arrears, and Confederate not paying regular instalments increased payment costs for Union too) (xml bugs).</li>
             <li>Lowered the costPU related to 50% interest payments from 45 PUs to 44 PUs, as per descriptions (xml bugs, assuming the descriptions are correct).</li>
-            <li>Corrected some wrong descriptions for War Financing user actions.</li>
+            <li>Corrected some wrong descriptions for War Financing user actions and notifications.</li>
             <li>Refactored War Financing, to present only one "take loan" action, when multiple would be available (but you are able to take only one and they are equivalent).</li>
             <li>Refactored War Financing, to allow paying for a regular instalment only after having settled the arrear for the same loan, if any (no point paying the regular instalments if you default).</li>
             <li>Default on loans messages given to both players, and reworded.</li>
             <li>Added messages to notify any increases in interest rates (upon skipping payments), given to both players.</li>
+            <li>Modified War Financing game notes.</li>
          </ul>
       </div>
         
