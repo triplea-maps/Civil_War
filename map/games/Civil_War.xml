@@ -14480,7 +14480,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Take_Loan1:1:false:false:false:false"/>
       <option name="text" value="Confederate_Take_Loan_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="userActionAttachment_Confederate_Take_Loan2" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
@@ -14488,7 +14488,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Take_Loan2:1:false:false:false:false"/>
       <option name="text" value="Confederate_Take_Loan_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="userActionAttachment_Confederate_Take_Loan3" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
@@ -14496,7 +14496,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Take_Loan3:1:false:false:false:false"/>
       <option name="text" value="Confederate_Take_Loan_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan1_MakePayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -14508,7 +14508,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Loan1_MakePayment:1:false:false:false:false"/>
       <option name="text" value="Confederate_MakePayment_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="30"/>
+      <option name="costResources" value="PUs" count="30"/>
       <option name="attemptsPerTurn" value="2"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan2_MakePayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -14520,7 +14520,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Loan2_MakePayment:1:false:false:false:false"/>
       <option name="text" value="Confederate_MakePayment_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="30"/>
+      <option name="costResources" value="PUs" count="30"/>
       <option name="attemptsPerTurn" value="2"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan3_MakePayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -14532,7 +14532,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Loan3_MakePayment:1:false:false:false:false"/>
       <option name="text" value="Confederate_MakePayment_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="30"/>
+      <option name="costResources" value="PUs" count="30"/>
       <option name="attemptsPerTurn" value="2"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan1_MakeBackPayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -14544,7 +14544,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Loan1_MakeBackPayment:1:false:false:false:false"/>
       <option name="text" value="Confederate_MakeBackPayment_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="30"/>
+      <option name="costResources" value="PUs" count="30"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan2_MakeBackPayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -14556,7 +14556,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Loan2_MakeBackPayment:1:false:false:false:false"/>
       <option name="text" value="Confederate_MakeBackPayment_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="30"/>
+      <option name="costResources" value="PUs" count="30"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan3_MakeBackPayment" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -14568,7 +14568,7 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Loan3_MakeBackPayment:1:false:false:false:false"/>
       <option name="text" value="Confederate_MakeBackPayment_at30"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="30"/>
+      <option name="costResources" value="PUs" count="30"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Default_Notification" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -14634,7 +14634,7 @@
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan1_BackPayment_20_to_25" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at25"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14662,13 +14662,13 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_20False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_25True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at25"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan2_BackPayment_20_to_25" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at25"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14684,13 +14684,13 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at20"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at25"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan3_BackPayment_20_to_25" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at25"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14706,7 +14706,7 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at20"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at25"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14719,7 +14719,7 @@
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan1_BackPayment_25_to_30" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at30"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14747,13 +14747,13 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_25False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_30True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at30"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan2_BackPayment_25_to_30" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at30"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14769,13 +14769,13 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at25"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at30"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan3_BackPayment_25_to_30" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at30"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14791,7 +14791,7 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at25"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at30"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14804,7 +14804,7 @@
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan1_BackPayment_30_to_35" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at35"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14832,13 +14832,13 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_30False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_35True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at35"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan2_BackPayment_30_to_35" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at35"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14854,13 +14854,13 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at30"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at35"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan3_BackPayment_30_to_35" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at35"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14876,7 +14876,7 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at30"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at35"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14889,7 +14889,7 @@
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan1_BackPayment_35_to_40" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at40"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14917,13 +14917,13 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_35False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_40True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at40"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan2_BackPayment_35_to_40" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at40"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14939,13 +14939,13 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at35"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at40"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan3_BackPayment_35_to_40" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at40"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14961,7 +14961,7 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at35"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at40"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -14974,7 +14974,7 @@
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan1_BackPayment_40_to_45" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at45"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -15002,13 +15002,13 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_40False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_45True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at45"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan2_BackPayment_40_to_45" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at45"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -15024,13 +15024,13 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at40"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at45"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan3_BackPayment_40_to_45" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at45"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -15046,7 +15046,7 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at40"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at45"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -15059,7 +15059,7 @@
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan1_BackPayment_45_to_50" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at50"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -15087,13 +15087,13 @@
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_45False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Confederate_Interest_50True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at50"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan2_BackPayment_45_to_50" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at50"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -15109,13 +15109,13 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at45"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at50"/>
       <option name="players" value="Confederate"/>
     </attachment>
     <attachment name="triggerAttachment_Confederate_Loan3_BackPayment_45_to_50" attachTo="Confederate" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakeBackPayment_at50"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -15131,7 +15131,7 @@
       <option name="conditions" value="conditionAttachment_Confederate_HasPayment_Anywhere:conditionAttachment_Confederate_Rate_at45"/>
       <option name="when" value="after:ConfederateUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Confederate_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Confederate_MakePayment_at50"/>
       <option name="players" value="Confederate"/>
     </attachment>
@@ -15298,7 +15298,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Take_Loan1:1:false:false:false:false"/>
       <option name="text" value="Union_Take_Loan_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="userActionAttachment_Union_Take_Loan2" attachTo="Union" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
@@ -15306,7 +15306,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Take_Loan2:1:false:false:false:false"/>
       <option name="text" value="Union_Take_Loan_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="userActionAttachment_Union_Take_Loan3" attachTo="Union" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
@@ -15314,7 +15314,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Take_Loan3:1:false:false:false:false"/>
       <option name="text" value="Union_Take_Loan_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan1_MakePayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -15326,7 +15326,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Loan1_MakePayment:1:false:false:false:false"/>
       <option name="text" value="Union_MakePayment_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="25"/>
+      <option name="costResources" value="PUs" count="25"/>
       <option name="attemptsPerTurn" value="2"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan2_MakePayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -15338,7 +15338,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Loan2_MakePayment:1:false:false:false:false"/>
       <option name="text" value="Union_MakePayment_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="25"/>
+      <option name="costResources" value="PUs" count="25"/>
       <option name="attemptsPerTurn" value="2"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan3_MakePayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -15350,7 +15350,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Loan3_MakePayment:1:false:false:false:false"/>
       <option name="text" value="Union_MakePayment_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="25"/>
+      <option name="costResources" value="PUs" count="25"/>
       <option name="attemptsPerTurn" value="2"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan1_MakeBackPayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -15362,7 +15362,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Loan1_MakeBackPayment:1:false:false:false:false"/>
       <option name="text" value="Union_MakeBackPayment_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="25"/>
+      <option name="costResources" value="PUs" count="25"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan2_MakeBackPayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -15374,7 +15374,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Loan2_MakeBackPayment:1:false:false:false:false"/>
       <option name="text" value="Union_MakeBackPayment_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="25"/>
+      <option name="costResources" value="PUs" count="25"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan3_MakeBackPayment" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -15386,7 +15386,7 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Loan3_MakeBackPayment:1:false:false:false:false"/>
       <option name="text" value="Union_MakeBackPayment_at20"/>
       <option name="chance" value="6:6"/>
-      <option name="costPU" value="25"/>
+      <option name="costResources" value="PUs" count="25"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Default_Notification" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -15452,7 +15452,7 @@
     </attachment>
     <attachment name="triggerAttachment_Union_Loan1_BackPayment_20_to_25" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at25"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15480,13 +15480,13 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_20False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_25True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at25"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan2_BackPayment_20_to_25" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at25"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15502,13 +15502,13 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at20"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at25"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan3_BackPayment_20_to_25" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at25"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15524,7 +15524,7 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at20"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="27"/>
+      <option name="playerProperty" value="costResources" count="27:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at25"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15537,7 +15537,7 @@
     </attachment>
     <attachment name="triggerAttachment_Union_Loan1_BackPayment_25_to_30" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at30"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15565,13 +15565,13 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_25False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_30True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at30"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan2_BackPayment_25_to_30" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at30"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15587,13 +15587,13 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at25"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at30"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan3_BackPayment_25_to_30" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at30"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15609,7 +15609,7 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at25"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="30"/>
+      <option name="playerProperty" value="costResources" count="30:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at30"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15622,7 +15622,7 @@
     </attachment>
     <attachment name="triggerAttachment_Union_Loan1_BackPayment_30_to_35" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at35"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15650,13 +15650,13 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_30False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_35True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at35"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan2_BackPayment_30_to_35" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at35"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15672,13 +15672,13 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at30"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at35"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan3_BackPayment_30_to_35" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at35"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15694,7 +15694,7 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at30"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="33"/>
+      <option name="playerProperty" value="costResources" count="33:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at35"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15707,7 +15707,7 @@
     </attachment>
     <attachment name="triggerAttachment_Union_Loan1_BackPayment_35_to_40" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at40"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15735,13 +15735,13 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_35False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_40True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at40"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan2_BackPayment_35_to_40" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at40"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15757,13 +15757,13 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at35"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at40"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan3_BackPayment_35_to_40" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at40"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15779,7 +15779,7 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at35"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="37"/>
+      <option name="playerProperty" value="costResources" count="37:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at40"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15792,7 +15792,7 @@
     </attachment>
     <attachment name="triggerAttachment_Union_Loan1_BackPayment_40_to_45" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at45"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15820,13 +15820,13 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_40False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_45True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at45"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan2_BackPayment_40_to_45" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at45"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15842,13 +15842,13 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at40"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at45"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan3_BackPayment_40_to_45" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at45"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15864,7 +15864,7 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at40"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="40"/>
+      <option name="playerProperty" value="costResources" count="40:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at45"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15877,7 +15877,7 @@
     </attachment>
     <attachment name="triggerAttachment_Union_Loan1_BackPayment_45_to_50" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at50"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15905,13 +15905,13 @@
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_45False:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachment_Union_Interest_50True:1:false:false:false:false"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan1_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at50"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan2_BackPayment_45_to_50" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at50"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15927,13 +15927,13 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at45"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan2_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at50"/>
       <option name="players" value="Union"/>
     </attachment>
     <attachment name="triggerAttachment_Union_Loan3_BackPayment_45_to_50" attachTo="Union" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakeBackPayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakeBackPayment_at50"/>
       <option name="players" value="Union"/>
     </attachment>
@@ -15949,7 +15949,7 @@
       <option name="conditions" value="conditionAttachment_Union_HasPayment_Anywhere:conditionAttachment_Union_Rate_at45"/>
       <option name="when" value="after:UnionUserActions"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachment_Union_Loan3_MakePayment"/>
-      <option name="playerProperty" value="costPU" count="44"/>
+      <option name="playerProperty" value="costResources" count="44:PUs"/>
       <option name="playerProperty" value="text" count="Union_MakePayment_at50"/>
       <option name="players" value="Union"/>
     </attachment>
