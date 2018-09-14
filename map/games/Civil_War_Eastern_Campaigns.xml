@@ -6139,6 +6139,10 @@
       <option name="canalName" value="rail142"/>
       <option name="landTerritories" value="Gordonsville:Hanover Junction:Louisa"/>
     </attachment>
+    <attachment name="canalAttachment144" attachTo="Manassas Station" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="rail144"/>
+      <option name="landTerritories" value="Washington:Manassas:Alexandria"/>
+    </attachment>
     <!-- territory efect attachments -->
     <attachment name="territoryEffectAttachment" attachTo="river" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
       <option name="unitsNotAllowed" value="frigate:battleship"/>
