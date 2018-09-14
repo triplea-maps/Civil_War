@@ -6091,6 +6091,10 @@
       <option name="canalName" value="rail83"/>
       <option name="landTerritories" value="Strasburg:New Market:Romney"/>
     </attachment>
+    <attachment name="canalAttachment88" attachTo="Richmond Station" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="rail88"/>
+      <option name="landTerritories" value="Mechanicsville:Richmond:Goochland"/>
+    </attachment>
     <attachment name="canalAttachment92" attachTo="Harpers Ferry Station" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="rail92"/>
       <option name="landTerritories" value="Baltimore:Harpers Ferry:Ellicotts Mills:Cramptons Gap:Frederick"/>
