@@ -1,0 +1,4 @@
+map_name: civil_war
+games:
+- {game_name: 'Civil War: Eastern Campaigns', file_name: Civil_War_Eastern_Campaigns.xml}
+- {game_name: 'Civil War: A House Divided', file_name: Civil_War.xml}
